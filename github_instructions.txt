@@ -4,3 +4,4 @@
 4. Write a comment for you to rememeber later what work you have done
 5. Click on commit button
 6. Click on Sync Changes button to sync with github
+7. The end
