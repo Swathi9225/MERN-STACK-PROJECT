@@ -1,0 +1,37 @@
+header{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+    font-family:'Arial Narrow Bold', sans-serif;
+    background-color:salmon;
+}
+
+main{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+       
+}
+h1{
+    color: chartreuse;
+    text-align:center;
+}
+h3{
+    text-align:center;
+    color: antiquewhite;
+}
+h2{
+    text-align:center;
+    color:antiquewhite;
+}
+h4{
+    text-align: left;
+    color:antiquewhite;
+}
+footer{
+    color: wheat;
+    background-color:grey;
+
+}
+body{
+    background-color: darkgrey;
+}

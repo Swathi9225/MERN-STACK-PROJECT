@@ -1,0 +1,24 @@
+img{
+    height: 170px;
+    width: 200px;
+    border-radius:170%;
+    margin: 20px;
+    text-align: center;
+    
+
+}
+h1{
+    text-align: center;
+    
+}
+header{
+    text-align: center; 
+    background-color: olive;
+    
+}
+body{
+    background-color: bisque;
+}
+dt{
+    text-decoration: underline;
+}
