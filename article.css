@@ -2,6 +2,7 @@ aside{
     box-sizing: border-box;
     padding: 20px;
     margin: 20px;
+    border-color: aqua;
     border-width: 20px;
     text-align:center;
    
