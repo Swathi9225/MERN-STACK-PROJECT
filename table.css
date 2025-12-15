@@ -6,3 +6,12 @@ table{
     text-align: center;
     border: 2px solid black;
 }
+#s{
+   background-color: yellow;
+}
+#k{
+    background-color: mediumpurple;
+}
+#d{
+    background-color: lightgreen;
+}

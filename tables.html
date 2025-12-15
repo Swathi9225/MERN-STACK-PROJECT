@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="table.css">
     </head>
     <body>
-        <h2><caption>Students Details</caption></h2>
+        <b><caption><h1>Students Details</h1></caption></b>
         <table>
           <tr> 
                 <th rowspan="2">Heading</th>
@@ -47,5 +47,51 @@
                 <td>004</td>
             </tr>
         </table>
-    </body>
-</html>
+        <hr>
+        <table>
+            <b><caption><h1>Schedule Table</h1></caption></b>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="2">Seminar</th>
+                <th rowspan="3" colspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+            </tr>
+            <tr>
+                <th colspan="1">Begin</th>
+                <th colspan="1">End</th>
+                </tr>
+                <tr>
+                <td rowspan="2">Monday</td>
+               <td rowspan="2" id="s">8.00 am</td>
+               <td rowspan="2" id="k">5.00 pm</td>
+               <td>Introduction to HTML</td>
+               </tr>
+               <tr>
+               <td rowspan="1" colspan="2">validity: HTML and CSS</td>
+               </tr>
+                    <tr>
+                        <td rowspan="3">Tuesday</td>
+                        <td id="s">8.00 am</td>
+                        <td id="s">11.00 am</td>
+                        <td rowspan="2">Tables</td>
+                    </tr>
+                    <tr>
+                        <td id="s">11.00 am</td>
+                        <td id="d">2.00 pm</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1" id="d"> 2.00 pm</td>
+                        <td rowspan="1" id="k"> 5.00 pm</td>
+                        <td rowspan="1">Tables Creation</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td id="s">8.00 pm</td>
+                        <td id="d">12.00 pm</td>
+                        <td>CSS(stylesheet)</td>
+                    </tr>
+            </table>
+        </body>
+    </html>
