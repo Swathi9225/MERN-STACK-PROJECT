@@ -1,0 +1,24 @@
+body{
+    background-color:antiquewhite;
+    padding: 10px;
+    margin: 5px 5px;
+    text-align: center;
+}
+h1{
+    padding: 1px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+tr, td{
+     border: 2px solid black;
+    padding: 5px;
+}
+table{
+    text-align: center;
+    border: 2px solid black;
+}
+form{
+    margin-left: 400px;
+}
+
+
+
