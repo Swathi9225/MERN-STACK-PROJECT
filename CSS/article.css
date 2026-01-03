@@ -1,11 +1,4 @@
-aside{
-    padding: 20px;
-    margin: 20px;
-    border-color: aqua;
-    border-width: 20px solid;
-    text-align:center;
-   
-}
+
 h3{
     color: darkmagenta;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -23,5 +16,7 @@ img{
     margin-left: 10px;
     padding-left: 2px;
 }
+
+
 
 

@@ -1,10 +1,5 @@
-body{
-    background-color:antiquewhite;
-    padding: 10px;
-    margin: 5px 5px;
-}
 h1{
-    color: chocolate;
+    color: rgb(28, 10, 187);
     margin: 10px;
     text-align: center;
     padding: 10px;
@@ -16,17 +11,41 @@ h1{
 
 }
 h4{
-    color:goldenrod;
+    color:rgb(10, 180, 47);
 }
-p{
+h3{
+    color: brown;
+}
+.section{
     font-family: sans-serif;
-}
-img{
-    align-items: center;
-    padding-right: 20px;
-    border: 2px salmon;
+    color: rgb(1, 1, 77);
+   
 }
 header{
     text-align: center;
+    font-weight: bold;
+    background-image:url(../images/chakra.jpg);
+    background-position: left top;
+    background-size: 25vh 10vw;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    
 }
+body{
+     background-image: url(../images/great.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+    background-size: 100vmax;
+    margin-left: 1.5em;
+    margin-top: 20px;
+
+    
+}
+img{
+    height: 50vh;
+    width: 70vw;
+}
+   
+    
 

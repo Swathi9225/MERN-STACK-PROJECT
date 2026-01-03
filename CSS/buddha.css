@@ -52,12 +52,12 @@ h6 {
 }
 .hero hr {
   width: 50%;
-  margin: 32px 0;
+  margin: 2em 0;
 }
 
 .content {
-  margin: 10px auto;
-  padding: 12px;
+  margin: 1.5em auto;
+  padding: 1.2em;
   text-align: left;
 }
 .content h3 {
@@ -68,7 +68,7 @@ h6 {
   text-align: center;
   font-family: Bitter, serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1em;
   letter-spacing: 1.5px;
 }
 
@@ -80,23 +80,23 @@ h6 {
   text-transform:capitalize;
   font-weight: 1.2em;
   letter-spacing: 0.25px;
-  margin: 4px 0;
-  font-size: 18px;
+  margin: 0.2em 0;
+  font-size: 1rem;
 }
 
 .quote {
   font-style: italic;
-  font-size: 14px;
-  border-left: 2px solid white;
-  padding-left: 16px;
-  margin: 32px 0 32px 32px;
+  font-size: 0.5em;
+  border-left: 0.1em solid white;
+  padding-left: 1em;
+  margin: 2rem 0 2em 3rem;
   color: rosybrown;
 }
 
 .quote cite {
   display: block;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 1.5em;
 }
 
 footer {
@@ -114,7 +114,7 @@ footer ul {
 
 footer ul li {
   display: inline;
-  padding: 0 16px;
+  padding: 0 1em;
 }
 
 footer li a {
@@ -131,9 +131,9 @@ footer li a:hover {
 
 }
 #img1{
-  height:150vh;
+  height:170vh;
   width: 350vw;
-  margin: 20px;
+  margin: 2.1em;
 }
 main{
   background-color:blanchedalmond;
