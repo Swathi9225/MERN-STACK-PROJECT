@@ -1,0 +1,20 @@
+input:focus {
+    background-color: burlywood;
+}
+label[type="check"]:hover{
+    color: brown;
+}
+h1{
+    color: darkolivegreen;
+}
+p{
+    color: coral;
+}
+body{
+    background-color: bisque;
+    color: darkgrey;
+    margin: 20px 10px;
+    padding: 10px 15px;
+    text-align: center;
+}
+

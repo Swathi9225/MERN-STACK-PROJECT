@@ -2,8 +2,8 @@
 body {
   font-family: Mukta, sans-serif;
   font-size: 16px;
-  margin: 10px;
-  padding: 5px;
+  margin: 15px;
+  padding: 9px;
   letter-spacing: 0px;
 }
 h1,h2,h3,
@@ -128,12 +128,20 @@ footer li a:hover {
 .buddha{
   height: 450vh;
   width: 500vw;
+  margin: 5px solid lightblue;
+  padding: 3px 5px;
+
+
 
 }
 #img1{
   height:170vh;
   width: 350vw;
   margin: 2.1em;
+  float: right;
+  margin: 3px solid teal;
+  padding: 5px 3px;
+
 }
 main{
   background-color:blanchedalmond;
