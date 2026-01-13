@@ -1,5 +1,5 @@
 input:focus {
-    background-color: burlywood;
+    background-color:lightskyblue;
 }
 label[type="check"]:hover{
     color: brown;
@@ -11,10 +11,17 @@ p{
     color: coral;
 }
 body{
-    background-color: bisque;
-    color: darkgrey;
+    background-color: lightgoldenrodyellow;
+    color: darkslategrey;
     margin: 20px 10px;
     padding: 10px 15px;
     text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
+#label:hover {
+    text-decoration: none;
+    color:darkorange;
+}
+
 

@@ -147,6 +147,17 @@ main{
   background-color:blanchedalmond;
   
 }
+a:hover {
+    text-decoration: none;
+    color: tomato;
+
+}
+
+a:focus {
+    background-color:lightgrey;
+     padding: 0.5rem;
+}
+
 
   
 
