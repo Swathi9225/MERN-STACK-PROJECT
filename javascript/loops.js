@@ -122,3 +122,13 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
+
+
+
+
+
+
+//String type 
+
+let string_lenght = "Swathi Tadiboina";
+   console.log(`(typeofstr ${string_length}`);
