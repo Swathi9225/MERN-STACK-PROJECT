@@ -28,7 +28,7 @@ console.log(150%10);
 
 // control statments
 
-let legal_age = 18
+ /*let legal_age = 18
  let user_age =20
  let  isage = user_age >= legal_age
     if(isage){
@@ -60,7 +60,7 @@ let legal_age = 18
            
              else {
                 console.log("welcome to Account");
-                }
+                }*/
     
 
 
