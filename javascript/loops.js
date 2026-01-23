@@ -130,5 +130,12 @@ for (let i = 1; i <= 100; i++) {
 
 //String type 
 
-let string_lenght = "Swathi Tadiboina";
-   console.log(`(typeofstr ${string_length}`);
+let string_type = "Swathi Tadiboina";
+   console.log(`Type of the string is :${typeof string_type}`);
+
+
+
+//Length of string 
+
+let  string_length = "Swathi Tadiboina";
+     console.log(`Length of the string is :${string_length.length});
