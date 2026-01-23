@@ -33,6 +33,8 @@ let age =Number(prompt("Enter your Age"));
 
 
 
+//UserName checking 
+
 
 while(true){
     let UserName = prompt("enter Username");
@@ -45,26 +47,32 @@ while(true){
      }
 }
 
-let attempts = 0
-while(true){
-        let Password = prompt("enter password");
-            if(Password !=="Swathi")
-            {
-                 console.log("welcome");
-                 break;
-            } else{
-                    console.log("Recheck Password");   
-                }
+        let attempts = 0
+           while(attempts<3){
+              let Password = prompt("enter     password");
+                 if(Password ==="SwathiSwa")
+                    {
+                      console.log(`welcome ${UserName}`);
+                       break;
+                    } 
+                      else {
+                          attempts++;
+                          console.log("Recheck Password!!..");   
+                           }
     
-        for(attempts =0; attempts<=3;attempts++){
-                if(Password.length<6){
-                    console.log("Password length  is missing" );  
+        
+                          if(Password.length<6). {
+                    console.log("Password length must be more than six characters" );  
                 }
                 
-                }
+              }
     
             }
-    
+               if(attempts === 3)
+                  {
+                    console.log(" Too many attempts!!! So please wait for 30 second");
+                  }
+                 
          console.log("Thank You!!...");
 
 
