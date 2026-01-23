@@ -1,12 +1,4 @@
-
-
-
-
-
-
-
-
- control statments
+ //control statments
 
  /*let legal_age = 18
  let user_age =20
@@ -19,21 +11,35 @@
     }
 
 
+    let UserName = prompt("Enter You're UserName");
+        if(UserName==="swathi9225"){
+            console.log(`hello ${UserName}`);
+        }
+          else if(!UserName === "UserName")
+            {
+              console.log( " Username is already existed")
+              }
+          else{
+              console.log(" Enter  correct username"
+}
+    let PassWord = prompt("Enter You're PassWord");
+            if(PassWord==="Swathi2005" || PassWord.length12){
+                console.log("PassWord saved");
+             }
+             else{
+                console.log("Invalid PassWord , length missed");
+                }
+    let age = prompt("Enter your legal age :");
+        if(age>=18) {
+            console.log("You can visit");
+              }
+           else if(age.DD/MM/YYYY){
+              console.log("please enter DateOfBirth");
+              }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+             else {
+                console.log("welcome to Account");
+                
 
 
 //If.. ,else.. , If..Else..If..
