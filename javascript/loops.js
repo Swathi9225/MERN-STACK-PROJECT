@@ -82,8 +82,25 @@ let triangle = "#";
     
 
     
- 
+ //Homework checking fizz and buzz and fizzbuzz!!
+
+let number = 0;
+  for(i=0; i<=100; i++){
+    if(number/3)
+      {
+        console.log(~${number} is Fizz~);
+      }
+       else if(number/5)
+      {
+        console.log(~${number} is Buzz~);
+      }
+        else
+          {
+            console.log(~${number} is FizzBuzz~);
+           }
 
 
+
+      
   
 
