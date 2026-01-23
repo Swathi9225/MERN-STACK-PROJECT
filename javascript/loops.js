@@ -76,9 +76,41 @@ while(true){
          console.log("Thank You!!...");
 
 
+let tri = "#";
+   while (tri<=8){
+           tri++ #;
+        console.log( tri);
+         break;
+       }
 
 
 
+
+
+
+
+
+//For loop ( king of loops)
+
+let a = "swathi";
+let s = 0;
+   for(s=0; s<= 20; s++)
+       {
+        console.log(s);
+       }
+
+
+
+
+let a = "Brother";
+let S = "0";
+    for(S=0; S<=20; S--)
+     {
+       console.log(S);
+     }
+
+
+// creating a "#" triangle using for 
 
 let triangle = "#";
     for(a=1; a<=10 ;a++);
@@ -90,7 +122,7 @@ let triangle = "#";
     
 
 /*    
- //Homework checking fizz and buzz and fizzbuzz!!
+ //Homework checking fizz andbuzz and fizzbuzz!!
 
 let number = 0;
   for(i=0; i<=100; i++){
