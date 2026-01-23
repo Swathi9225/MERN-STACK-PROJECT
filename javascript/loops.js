@@ -86,17 +86,17 @@ let triangle = "#";
 
 let number = 0;
   for(i=0; i<=100; i++){
-    if(number/3)
+    if(i%3)
       {
-        console.log(~${number} is Fizz~);
+        console.log(~${i} is Fizz~);
       }
-       else if(number/5)
+       else if(i%5)
       {
-        console.log(~${number} is Buzz~);
+        console.log(~${i} is Buzz~);
       }
         else
           {
-            console.log(~${number} is FizzBuzz~);
+            console.log(~${i} is FizzBuzz~);
            }
 
 
