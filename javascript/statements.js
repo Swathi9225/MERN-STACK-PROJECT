@@ -1,3 +1,41 @@
+
+
+
+
+
+
+
+
+ control statments
+
+ /*let legal_age = 18
+ let user_age =20
+ let  isage = user_age >= legal_age
+    if(isage){
+        console.log("you can vote");
+    }else{
+        console.log("you can't vote");
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //If.. ,else.. , If..Else..If..
 
 /*let UserName = prompt("Enter your UserName");
