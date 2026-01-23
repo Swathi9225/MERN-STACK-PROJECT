@@ -67,7 +67,18 @@ while(true){
     
          console.log("Thank You!!...");
 
-        
+
+
+
+
+
+let triangle = "#";
+    for(a=1; a<=10 ;a++);
+       {
+         triangle = training + 1 #;
+          console.log(triangle);
+
+        }
     
 
     
