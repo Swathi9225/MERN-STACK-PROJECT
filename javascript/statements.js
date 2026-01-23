@@ -33,9 +33,6 @@
         if(age>=18) {
             console.log("You can visit");
               }
-           else if(age.DD/MM/YYYY){
-              console.log("please enter DateOfBirth");
-              }
 
              else {
                 console.log("welcome to Account");
