@@ -77,9 +77,9 @@ while(true){
 
 
 let tri = "#";
-   while (tri<=8){
-           tri++ #;
+   while (tri.length<=8){   
         console.log( tri);
+          tri = tri + #;
          break;
        }
 
