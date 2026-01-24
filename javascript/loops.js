@@ -32,7 +32,9 @@ let age =Number(prompt("Enter your Age"));
     
 
 
-/*while(true){
+
+
+while(true){
     let UserName = prompt("enter Username");
         if (UserName==="Swathi"){
             console.log(`hi ${UserName}`);
@@ -43,134 +45,34 @@ let age =Number(prompt("Enter your Age"));
                 }
             }
 
-        let attempts = 0
-           while(attempts<3){
-              let Password = prompt("enter the password");
-                 if(Password ==="SwathiSwa")
-                    {
-                      console.log("welcome  to the");
-                       break;
-                    } 
-                      else {
-                          attempts++;
-                          console.log("Recheck Password!!..");   
-                           }
+let attempts = 0
+while(true){
+        let Password = prompt("enter password");
+            if(Password !=="Swathi")
+            {
+                 console.log("welcome");
+                 break;
+            } else{
+                    console.log("Recheck Password");   
+                }
     
-        
-                          if(Password.length<6) {
-                    console.log("Password length must be more than six characters" );  
+        for(attempts =0; attempts<=3;attempts++){
+                if(Password.length<6){
+                    console.log("Password length  is missing" );  
                 }
                 
-              }
-               if(attempts === 3)
-                  {
-                    console.log(" Too many attempts!!! So please wait for 30 second");
-                  }
-                 
+                }
+    
+            }
+    
          console.log("Thank You!!...");
-         */
 
-
-
-
-
-       /*  //Home work
-
-         let tri = "#";
-   while (tri.length<=8){   
-          tri = tri + 
-          console.log(`${tri}`);
-         break;
-       }
-*/
-
-
-
-
-
-
-
-/*//For loop ( king of loops)
-
-let a = "swathi";
-let s = 0;
-   for(s=0; s<= 20; s++)
-       {
-        console.log(`${a}`);
-       }
-*/
-
-
-
-/*let  X= "Brother";
-let Y = "0";
-    for(Y=0; Y<=20; Y--)
-     {
-       console.log(Y);
-     }
-
-
-// creating a "#" triangle using for 
-
-let triangle = "*";
-    for(a=1; a<=10 ;a++);
-       {
-         triangle = training + 1 ;
-          console.log(`${triangle}`);
-
-        }
+        
     
 
-   
- //Homework checking fizz andbuzz and fizzbuzz!!
-
-let number = 0;
-  for(i=0; i<=100; i++){
-    if(i%3)
-      {
-        console.log(`${i} is Fizz`);
-      }
-       else if(i%5)
-      {
-        console.log(`${i} is Buzz`);
-      }
-        else
-          {
-            console.log(`${i} is FizzBuzz`);
-           }
-          }
+    
+ 
 
 
   
-    
-// another method   
-  
-for (let i = 1; i <= 100; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log(`${i} is FizzBuzz`);
-  } else if (i % 3 === 0) {
-    console.log(`${i} is Fizz`);
-  } else if (i % 5 === 0) {
-    console.log(`${i} is Buzz`);
-  } else {
-    console.log(i);
-  }
-}
 
-
-
-
-
-
-//String type 
-
-let string_type = "Swathi Tadiboina";
-   console.log(`Type of the string is :${typeof string_type}`);
-
-
-
-//Length of string 
-
-let  string_length = "Swathi Tadiboina";
-     console.log(`Length of the string is : ${string_length}`);
- */

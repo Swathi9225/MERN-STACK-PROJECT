@@ -25,18 +25,6 @@ console.log(150%10);
     let mile = (km*one_mile)
         console.log(`150 km equals to ${mile} miles`);
 
-
-// control statments
-
- /*let legal_age = 18
- let user_age =20
- let  isage = user_age >= legal_age
-    if(isage){
-        console.log("you can vote");
-    }else{
-        console.log("you can't vote");
-        
-    }
      
     
     let UserName = prompt("Enter You're UserName");
