@@ -52,7 +52,7 @@ while(true){
               let Password = prompt("enter     password");
                  if(Password ==="SwathiSwa")
                     {
-                      console.log(`welcome ${UserName}`);
+                      console.log("welcome to the page");
                        break;
                     } 
                       else {
@@ -78,8 +78,8 @@ while(true){
 
 let tri = "#";
    while (tri.length<=8){   
-        console.log( tri);
-          tri = tri + #;
+        console.log(`${tri}`);
+          tri = tri + ;
          break;
        }
 
@@ -96,17 +96,17 @@ let a = "swathi";
 let s = 0;
    for(s=0; s<= 20; s++)
        {
-        console.log(s);
+        console.log(`${a}`);
        }
 
 
 
 
-let a = "Brother";
-let S = "0";
-    for(S=0; S<=20; S--)
+let X = "Brother";
+let Y = "0";
+    for(Y=0; Y<=20; Y--)
      {
-       console.log(S);
+       console.log(`${X}`);
      }
 
 
@@ -115,8 +115,8 @@ let S = "0";
 let triangle = "#";
     for(a=1; a<=10 ;a++);
        {
-         triangle = training + 1 #;
-          console.log(triangle);
+         triangle = training + 1 ;
+          console.log(`${triangle}`);
 
         }
     
@@ -171,3 +171,10 @@ let string_type = "Swathi Tadiboina";
 
 let  string_length = "Swathi Tadiboina";
      console.log(`Length of the string is :${string_length.length});
+
+
+
+
+
+
+
