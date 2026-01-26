@@ -48,7 +48,7 @@ let age =Number(prompt("Enter your Age"));
               let Password = prompt("enter the password");
                  if(Password ==="SwathiSwa")
                     {
-                      console.log("welcome  to the");
+                      console.log("welcome  to the page");
                        break;
                     } 
                       else {
@@ -102,21 +102,21 @@ let s = 0;
 
 
 
-let  X= "Brother";
-let Y = "0";
-    for(Y=0; Y<=20; Y--)
+/*let  X= "Brother";
+    for( let Y=0; Y<10; Y--)
      {
-       console.log(Y);
+      X=X+1;
+       console.log(X);
      }
 
 
-// creating a "#" triangle using for 
+// creating a "*" triangle using for 
 
-let triangle = "*";
-    for(a=1; a<=10 ;a++);
+let triangle = "";
+    for( let a=1; a<=10; a++)
        {
-         triangle = training + 1 ;
-          console.log(`${triangle}`);
+         triangle = triangle + "*";
+          console.log(triangle);
 
         }
     
@@ -173,4 +173,4 @@ let string_type = "Swathi Tadiboina";
 
 let  string_length = "Swathi Tadiboina";
      console.log(`Length of the string is : ${string_length}`);
- 
+ */
