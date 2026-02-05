@@ -34,11 +34,6 @@ const PhoneNO = document.querySelector('#phone_no')
     },false
 );
 
-
-
-
-
-
 const Password = document.querySelector('#Password')
 Password.addEventListener(
     'mouseenter',()=>{
