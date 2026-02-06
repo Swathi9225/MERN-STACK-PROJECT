@@ -31,22 +31,17 @@ Password.addEventListener(
     },false
 )
 
+ let toggle = true;
+ const check_button = document.querySelector('#Check');
+ const label = document.querySelector("#agreeText");
 
- const button_element = document.querySelector('#btn')
-
-button_element.addEventListener(
-         'click',  () => {
-        console.log("Uploded!")
-        
-    },
-     false
- )
- click_button.addEventListener('click', () => {
+ check_button.addEventListener(
+    'click', () => {
     if (toggle) {
-     h2_element.id = 'color'
-      toggle = false
+     label.id = "labelbtn";
+      toggle = false;
     } else {
-        h2_element.id = ''
+        label.id = 'agreeText'
         toggle = true
     }
 })
