@@ -6,8 +6,8 @@ const port = 3000
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.get('/sir', (req, res) => {
-  res.send("<h1>Hello sir Please don't scary me!!</h1>")
+app.get('/express', (req, res) => {
+  res.send("<h1>Hello Express!!</h1>")
 })
 
 app.get('/videos', (req, res) => {
