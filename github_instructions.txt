@@ -1,7 +1,0 @@
-1. Do some change in your code
-2. Click on source control icon on the left side menu
-3. It shows that you have done some changes
-4. Write a comment for you to rememeber later what work you have done
-5. Click on commit button
-6. Click on Sync Changes button to sync with github
-7. The end
